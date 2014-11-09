@@ -62,7 +62,6 @@
   <ItemGroup>
     <Compile Include="Gzip.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\ControlSystem.cfg" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />

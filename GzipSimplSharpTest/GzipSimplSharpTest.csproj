@@ -55,9 +55,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AuthoringTests.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\GzipSimplSharp\GzipSimplSharp.csproj">
       <Project>{8E68C4C2-E73D-4E3C-A820-83804533AC3B}</Project>
       <Name>GzipSimplSharp</Name>
