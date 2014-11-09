@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GzipSimplSharp", "GzipSimplSharp\GzipSimplSharp.csproj", "{8E68C4C2-E73D-4E3C-A820-83804533AC3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GzipSimplSharpTest", "GzipSimplSharpTest\GzipSimplSharpTest.csproj", "{8FE5188F-492A-4C42-A66F-325DD5E15FC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5FC72430-5B17-43DD-AED9-E217603C4724}"
+	ProjectSection(SolutionItems) = preProject
+		GzipSimplSharp.vsmdi = GzipSimplSharp.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = GzipSimplSharp.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E68C4C2-E73D-4E3C-A820-83804533AC3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E68C4C2-E73D-4E3C-A820-83804533AC3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E68C4C2-E73D-4E3C-A820-83804533AC3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E68C4C2-E73D-4E3C-A820-83804533AC3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FE5188F-492A-4C42-A66F-325DD5E15FC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FE5188F-492A-4C42-A66F-325DD5E15FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FE5188F-492A-4C42-A66F-325DD5E15FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FE5188F-492A-4C42-A66F-325DD5E15FC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
