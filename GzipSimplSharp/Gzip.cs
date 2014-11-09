@@ -22,8 +22,7 @@ namespace GzipSimplSharp
         /// </summary>
         public string Decompress(string str)
         {
-            byte[] bytes = StringToBytes(str);
-            using (MemoryStream src = new MemoryStream(bytes),
+            using (MemoryStream src = new MemoryStream(StringToBytes(str)),
                                 dest = new MemoryStream())
             {
                 using (var gs = new GZipStream(src, CompressionMode.Decompress))
@@ -35,9 +34,7 @@ namespace GzipSimplSharp
                         dest.Write(tmp, 0, cnt);
                     }
                 }
-                byte[] outbytes = dest.ToArray();
-                string outstr = BytesToString(outbytes);
-                return outstr;
+                return BytesToString(dest.ToArray());
             }
         }
 
